@@ -4,47 +4,102 @@ body {
 .wrapper {
   max-width: 1440px;
   margin: 30px auto;
+  font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+  font-size: 21px;
+  line-height: 25px;
+  color: #FFFFFF;
 }
 .main {
   background-color: #3399CC;
   border: 25px solid #2B81AC;
 }
+/* ---------------------container__header------------------ */
+
 .container__header {
+  margin: 60px 0px 0px 110px;
+  text-align: justify;
 }
+
+h1 {
+  display: inline-block;
+  margin-right: 4px;
+}
+.icon {
+  display: inline-block;
+}
+
+/* ----------------container__main---------------------- */
 .container__main {
+  font-size: 0;
 }
 .weather-city__list {
+  margin: 35px auto;
+  max-width: 1170px;
+  text-align: center;
+  border: 2px solid #FFFFFF;
 }
 .weather-city__item {
+  display: inline-block;
+  border: 2px solid #FFFFFF;
+  min-height: 147px;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFFFFF;
+  width: 25%;
+  text-align: center;
+  padding: 27px 0;
 }
-.weather-city__item_lisbon {
-}
+
 .city {
 }
 .degree {
+  display: inline-block;
 }
 .weather__icon {
+  display: inline-block;
+}
+
+.weather-city__item_lisbon {
+  width: 50%;
+  background: #3399CC;
 }
 .weather-city__item_paris {
+  background-color: #33CCCC;
 }
 .weather-city__item_belgrade {
+  background-color: #996699;
 }
 .weather-city__item_venice {
+  background-color: #C24747;
 }
 .weather-city__item_tel-avive {
+  background-color: #E2674A;
 }
 .weather-city__item_cair {
+  background-color: #FFCC66;
 }
 .weather-city__item_new-york {
+  background-color: #99CC99;
 }
 .weather-city__item_new-deli {
+  background-color: #669999;
 }
 .weather-city__item_san-francisco {
+  width: 50%;
+  background-color: #CC6699;
 }
 .weather-city__item_tokyo {
+  background-color: #339966;
 }
 .weather-city__item_sydney {
+  width: 100%;
+  background-color: #666699;
 }
+/* -----------container__footer----------- */
 .container__footer {
+  margin: 0px 0 119px 112px;
+  font-size: 16px;
+  line-height: 19px;
 }
+
 
