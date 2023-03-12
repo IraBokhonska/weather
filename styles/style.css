@@ -37,6 +37,8 @@ h1 {
   max-width: 1170px;
   text-align: center;
   border: 2px solid #FFFFFF;
+  /* cursor: url('images/cursor-cat.svg'), auto; */
+  /* не працює курсор */
 }
 .weather-city__item {
   display: inline-block;
@@ -48,10 +50,9 @@ h1 {
   width: 25%;
   text-align: center;
   padding: 27px 0;
+  opacity: 0.5;
 }
 
-.city {
-}
 .degree {
   display: inline-block;
   position: relative;
@@ -65,12 +66,9 @@ h1 {
   height: 61px;
 }
 
-.weather__icon img {
-}
-
 .weather-city__item_lisbon {
   width: 50%;
-  background: #3399CC;
+  background-color: #3399CC;
 }
 .weather-city__item_paris {
   background-color: #33CCCC;
@@ -109,6 +107,9 @@ h1 {
 }
 .weather-city__item_sydney .weather__icon {
   top: 15px;
+}
+.weather-city__item:hover {
+  opacity: 1;
 }
 
 /* -----------container__footer----------- */
