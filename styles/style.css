@@ -1,0 +1,50 @@
+body {
+  background-color: #E5E5E5;
+}
+.wrapper {
+  max-width: 1440px;
+  margin: 30px auto;
+}
+.main {
+  background-color: #3399CC;
+  border: 25px solid #2B81AC;
+}
+.container__header {
+}
+.container__main {
+}
+.weather-city__list {
+}
+.weather-city__item {
+}
+.weather-city__item_lisbon {
+}
+.city {
+}
+.degree {
+}
+.weather__icon {
+}
+.weather-city__item_paris {
+}
+.weather-city__item_belgrade {
+}
+.weather-city__item_venice {
+}
+.weather-city__item_tel-avive {
+}
+.weather-city__item_cair {
+}
+.weather-city__item_new-york {
+}
+.weather-city__item_new-deli {
+}
+.weather-city__item_san-francisco {
+}
+.weather-city__item_tokyo {
+}
+.weather-city__item_sydney {
+}
+.container__footer {
+}
+
