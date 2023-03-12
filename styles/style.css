@@ -54,9 +54,18 @@ h1 {
 }
 .degree {
   display: inline-block;
+  position: relative;
+  top: 19px;
+  right: 4px;
 }
 .weather__icon {
   display: inline-block;
+  position: relative;
+  top: 4px;
+  height: 61px;
+}
+
+.weather__icon img {
 }
 
 .weather-city__item_lisbon {
@@ -91,10 +100,17 @@ h1 {
 .weather-city__item_tokyo {
   background-color: #339966;
 }
+.weather-city__item_tokyo .weather__icon {
+  top: 15px;
+}
 .weather-city__item_sydney {
   width: 100%;
   background-color: #666699;
 }
+.weather-city__item_sydney .weather__icon {
+  top: 15px;
+}
+
 /* -----------container__footer----------- */
 .container__footer {
   margin: 0px 0 119px 112px;
